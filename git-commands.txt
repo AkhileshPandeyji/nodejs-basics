@@ -1,0 +1,460 @@
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy
+$ git init
+Initialized empty Git repository in C:/Users/Akhilesh Kr. Pandey/Desktop/nodeapps/webservers-app-deploy/.git/
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        express-middleware.js
+        hbs-render-template-engine.js
+        node_modules/
+        package-lock.json
+        package.json
+        public/
+        server.js
+        server.log
+        static-directory-server.js
+        views/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git add express-middleware.js
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        hbs-render-template-engine.js
+        node_modules/
+        package-lock.json
+        package.json
+        public/
+        server.js
+        server.log
+        static-directory-server.js
+        views/
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git add hbs-render-template-engine.js
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        node_modules/
+        package-lock.json
+        package.json
+        public/
+        server.js
+        server.log
+        static-directory-server.js
+        views/
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git add package-lock.json
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+        new file:   package-lock.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        node_modules/
+        package.json
+        public/
+        server.js
+        server.log
+        static-directory-server.js
+        views/
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git add package.json
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+        new file:   package-lock.json
+        new file:   package.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        node_modules/
+        public/
+        server.js
+        server.log
+        static-directory-server.js
+        views/
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git add public/
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git add views/
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/index.html
+        new file:   views/about.hbs
+        new file:   views/home.hbs
+        new file:   views/maintenance.hbs
+        new file:   views/partials/footer.hbs
+        new file:   views/partials/header.hbs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        node_modules/
+        server.js
+        server.log
+        static-directory-server.js
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git add server.js
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/index.html
+        new file:   server.js
+        new file:   views/about.hbs
+        new file:   views/home.hbs
+        new file:   views/maintenance.hbs
+        new file:   views/partials/footer.hbs
+        new file:   views/partials/header.hbs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        node_modules/
+        server.log
+        static-directory-server.js
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git add static-directory-server.js
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/index.html
+        new file:   server.js
+        new file:   static-directory-server.js
+        new file:   views/about.hbs
+        new file:   views/home.hbs
+        new file:   views/maintenance.hbs
+        new file:   views/partials/footer.hbs
+        new file:   views/partials/header.hbs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        node_modules/
+        server.log
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/index.html
+        new file:   server.js
+        new file:   static-directory-server.js
+        new file:   views/about.hbs
+        new file:   views/home.hbs
+        new file:   views/maintenance.hbs
+        new file:   views/partials/footer.hbs
+        new file:   views/partials/header.hbs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore.txt
+        node_modules/
+        server.log
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git ignore node_modules/
+git: 'ignore' is not a git command. See 'git --help'.
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/index.html
+        new file:   server.js
+        new file:   static-directory-server.js
+        new file:   views/about.hbs
+        new file:   views/home.hbs
+        new file:   views/maintenance.hbs
+        new file:   views/partials/footer.hbs
+        new file:   views/partials/header.hbs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        node_modules/
+        server.log
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/index.html
+        new file:   server.js
+        new file:   static-directory-server.js
+        new file:   views/about.hbs
+        new file:   views/home.hbs
+        new file:   views/maintenance.hbs
+        new file:   views/partials/footer.hbs
+        new file:   views/partials/header.hbs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git add .gitignore
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   express-middleware.js
+        new file:   hbs-render-template-engine.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/index.html
+        new file:   server.js
+        new file:   static-directory-server.js
+        new file:   views/about.hbs
+        new file:   views/home.hbs
+        new file:   views/maintenance.hbs
+        new file:   views/partials/footer.hbs
+        new file:   views/partials/header.hbs
+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git commit -m 'Initial commit'
+[master (root-commit) 902fc2f] Initial commit
+ 13 files changed, 815 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 express-middleware.js
+ create mode 100644 hbs-render-template-engine.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/index.html
+ create mode 100644 server.js
+ create mode 100644 static-directory-server.js
+ create mode 100644 views/about.hbs
+ create mode 100644 views/home.hbs
+ create mode 100644 views/maintenance.hbs
+ create mode 100644 views/partials/footer.hbs
+ create mode 100644 views/partials/header.hbs
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ ls -al ~/.ssh
+ls: cannot access '/c/Users/Akhilesh Kr. Pandey/.ssh': No such file or directory
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ ssh-keygen -t rsa -b 4096 -C 'pandeyakhilesh5372@gmail.com'
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Akhilesh Kr. Pandey/.ssh/id_rsa):
+Created directory '/c/Users/Akhilesh Kr. Pandey/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Akhilesh Kr. Pandey/.ssh/id_rsa.
+Your public key has been saved in /c/Users/Akhilesh Kr. Pandey/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:7ifuymIHd29QmOrelm/Dbk1aNZrscnKu3Q3yLHV6XhI pandeyakhilesh5372@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|                 |
+|                 |
+|         o       |
+|        o .   o  |
+|       .S. . +E. |
+|    . o.o   * ...|
+|     + ..= *..oo.|
+|    o.oo+ %.*=.+o|
+|   . ++==O+Oo.+oo|
++----[SHA256]-----+
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ ls -al ~/.ssh
+total 32
+drwxr-xr-x 1 Akhilesh Kr. Pandey 197121    0 Sep 27 00:04 ./
+drwxr-xr-x 1 Akhilesh Kr. Pandey 197121    0 Sep 27 00:04 ../
+-rw-r--r-- 1 Akhilesh Kr. Pandey 197121 3243 Sep 27 00:04 id_rsa
+-rw-r--r-- 1 Akhilesh Kr. Pandey 197121  754 Sep 27 00:04 id_rsa.pub
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ ls -al ~/.ssh
+total 32
+drwxr-xr-x 1 Akhilesh Kr. Pandey 197121    0 Sep 27 00:04 ./
+drwxr-xr-x 1 Akhilesh Kr. Pandey 197121    0 Sep 27 00:04 ../
+-rw-r--r-- 1 Akhilesh Kr. Pandey 197121 3243 Sep 27 00:04 id_rsa
+-rw-r--r-- 1 Akhilesh Kr. Pandey 197121  754 Sep 27 00:04 id_rsa.pub
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ eval "$(ssh-agent -s)"
+Agent pid 15108
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/Akhilesh Kr. Pandey/.ssh/id_rsa (/c/Users/Akhilesh Kr. Pandey/.ssh/id_rsa)
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ clip < ~/.ssh/id_rsa.pub
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git remote add origin https://github.com/AkhileshPandeyji/nodejs-basics.git
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$ git push -u origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (18/18), 8.57 KiB | 730.00 KiB/s, done.
+Total 18 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/AkhileshPandeyji/nodejs-basics/pull/new/master
+remote:
+To https://github.com/AkhileshPandeyji/nodejs-basics.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Akhilesh Kr. Pandey@DESKTOP-K9JUKNT MINGW64 ~/Desktop/nodeapps/webservers-app-deploy (master)
+$

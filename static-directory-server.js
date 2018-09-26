@@ -1,5 +1,5 @@
 const express = require('express');
-
+const port = process.env.PORT || 3000;
 var app = express();
 //__dirname stands for the parent directory
 app.use(express.static(__dirname + '/public'));
@@ -15,6 +15,6 @@ app.get('/',(req,res)=>{
 });
 //2nd argument of the app.listen() can be used for debugging purposes
 //to show messages in the terminal console.
-app.listen(3000,() =>{
+app.listen(port,() =>{
   console.log("The server is up and running");
 });

@@ -1,5 +1,6 @@
 const express = require('express');
 const hbs = require('hbs');
+const port = process.env.PORT || 3000;
 //nodemon filename.js -e js,hbs is necessary
 var app = express();
 //registering the partials that is the partial code of your
@@ -28,6 +29,6 @@ app.get('/about',(req,res)=>{
     pagetitle: 'About Page',
     });
 });
-app.listen(3000,()=>{
+app.listen(port,()=>{
   console.log('Server is up and running at port 3000');
 })

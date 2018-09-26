@@ -1,4 +1,5 @@
 const express = require('express');
+const port = process.env.PORT || 3000;
 //express is a npm package that is used to create http
 //web server request handlers or request routers
 
@@ -35,4 +36,4 @@ app.get('/about',(req,res)=>{
       errorMessage : 'Unable to resolve the request'
     });
   });
-  app.listen(3000);
+  app.listen(port);
